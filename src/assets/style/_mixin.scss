@@ -1,0 +1,29 @@
+
+
+@mixin j-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@mixin btn1{
+  background-color: $bL-color;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+@mixin btn2{
+  padding: 10px 15px;
+  color: $sN-color;
+  border: 1px solid $bL-color;
+  border-radius: 5px;
+}
+
+@mixin btn3{
+  padding: 10px 15px;
+  border: 1px solid $bL-color;
+  border-radius: 5px;
+  background-color: $shark-color;
+  color: white;
+}

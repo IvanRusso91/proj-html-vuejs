@@ -1,5 +1,5 @@
 <template>
-  <bosy>
+  <body>
 
     <HeaderComp/>
 
@@ -17,7 +17,7 @@
 
     <FooterComp/>
     
-  </bosy>
+  </body>
 </template>
 
 <script>
@@ -48,5 +48,10 @@ export default {
 </script>
 
 <style lang="scss">
+
+@import './assets/style/general';
+@import './assets/style/mixin';
+@import './assets/style/utils';
+@import './assets/style/vars';
 
 </style>
