@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <div>
 
     <HeaderComp/>
 
@@ -17,7 +17,7 @@
 
     <FooterComp/>
     
-  </body>
+  </div>
 </template>
 
 <script>

@@ -49,7 +49,10 @@ header{
       margin:auto;
     }
     .right{
+      display: flex;
       width: 50%;
+      justify-content: end;
+      padding-right: 10px;
       nav{
         ul{
           li{
