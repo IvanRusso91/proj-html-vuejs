@@ -38,7 +38,8 @@ export default {
 
 header{
   background-color: $bSto-color;
-
+  z-index: 4;
+  position: relative;
   .box-head{
     @include j-sb;
     height: 60px;
@@ -52,7 +53,7 @@ header{
       display: flex;
       width: 50%;
       justify-content: end;
-      padding-right: 10px;
+  
       nav{
         ul{
           li{

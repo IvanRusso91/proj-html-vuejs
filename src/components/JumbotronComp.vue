@@ -1,4 +1,6 @@
 <template>
+<div>
+  <div class="sfondo"></div>
   <div class="jumbo">
     <div class="container box-jumbo">
       <div class="c-left">
@@ -24,7 +26,9 @@
       <div class="box-active"></div>
       <div class="box"></div>
     </div>
+    
   </div>
+</div> 
 </template>
 
 <script>
@@ -65,32 +69,44 @@ export default {
 @import '../assets/style/vars';
 @import '../assets/style/mixin';
 
+.sfondo{
+  background-image: url(../assets/img/bg-parallax.PNG);
+  height: calc(100vh - 50px);
+  margin-left: - 860px;
+  margin-top: - 70px;
+  transform: scale(1.1);
+}
+
 .jumbo{
-  height: calc(100vh - 60px);
+  z-index: 3;
+  position: relative;
+  height: calc(100vh - 96px);
+  margin-top: -800px;
   .box-jumbo{
     @include j-sb;
-
     .c-left{
       width: 50%;
-
       img{
         width: 160px;
         padding-top: 20px;
       }
     }
     .c-right{
+      display: flex;
       width: 50%;
       padding-top: 35px;
+      justify-content: end;
       nav{
         ul{
           li{
             display: inline-block;
-            margin-left: 15px;
+            margin-left: 20px;
             cursor: default;
             a{
               color: $shark-color;
               text-transform: uppercase; 
               font-weight: bold;
+              
               &:hover{
                 color: $bL-color;
               }   
@@ -107,6 +123,7 @@ export default {
       }
     }
   }
+
   .jumbo-text{
     text-align: center;
     margin-top: 300px;
@@ -118,7 +135,7 @@ export default {
         background-color: rgba(108,160,160,0.3);;
         color: $bL-color;
         border-radius: 5px
-      };
+      }
     }
     p{
       font-size: 1.3rem;
@@ -141,10 +158,6 @@ export default {
         background-color: $sN-color;
       } 
     }
-    
-    // background-image: url(../assets/img/bg-parallax.png);
-    // height: calc(100vh - 30px);
-    // transform: scale(1.1);
   }
   .right-box{
     padding: 20px;
@@ -165,6 +178,7 @@ export default {
       border-radius: 10px;
     }
   }
+ 
 }
 
 </style>
