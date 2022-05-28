@@ -27,3 +27,17 @@
   background-color: $shark-color;
   color: white;
 }
+
+@mixin title {
+  padding: 10px 15px;
+  background-color: rgba(108,160,160,0.3);;
+  color: $bL-color;
+  border-radius: 5px
+}
+
+//<i class="fa-solid fa-diagram-project"></i>
+//<i class="fa-solid fa-briefcase"></i>
+//<i class="fa-solid fa-chart-column"></i>
+//<i class="fa-solid fa-plane"></i>
+//<i class="fa-solid fa-globe"></i>
+//<i class="fa-solid fa-inbox"></i>

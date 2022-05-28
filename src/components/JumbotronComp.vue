@@ -77,108 +77,105 @@ export default {
   transform: scale(1.1);
 }
 
-.jumbo{
-  z-index: 3;
-  position: relative;
-  height: calc(100vh - 96px);
-  margin-top: -800px;
-  .box-jumbo{
-    @include j-sb;
-    .c-left{
-      width: 50%;
-      img{
-        width: 160px;
-        padding-top: 20px;
-      }
-    }
-    .c-right{
-      display: flex;
-      width: 50%;
-      padding-top: 35px;
-      justify-content: end;
-      nav{
-        ul{
-          li{
-            display: inline-block;
-            margin-left: 20px;
-            cursor: default;
-            a{
-              color: $shark-color;
-              text-transform: uppercase; 
-              font-weight: bold;
+ .jumbo{
+   z-index: 3;
+   position: relative;
+   height: calc(100vh - 96px);
+   margin-top: -800px;
+   .box-jumbo{
+     @include j-sb;
+     .c-left{
+       width: 50%;
+       img{
+         width: 160px;
+         padding-top: 20px;
+       }
+     }
+     .c-right{
+       display: flex;
+       width: 50%;
+       padding-top: 35px;
+       justify-content: end;
+       nav{
+         ul{
+           li{
+             display: inline-block;
+             margin-left: 20px;
+             cursor: default;
+             a{
+               color: $shark-color;
+               text-transform: uppercase; 
+               font-weight: bold;
               
-              &:hover{
-                color: $bL-color;
-              }   
-            }
-            .btn{
-              @include btn1;           
-              &:hover{
-                color: white;
-                background-color: $vibrant-color;
-              }
-            }
-          }
+               &:hover{
+                 color: $bL-color;
+               }   
+             }
+             .btn{
+               @include btn1;           
+               &:hover{
+                 color: white;
+                 background-color: $vibrant-color;
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+
+   .jumbo-text{
+     text-align: center;
+     margin-top: 300px;
+     h1{
+       font-size: 5rem;
+       margin-bottom: 25px;
+       span{
+         @include title 
         }
       }
-    }
-  }
-
-  .jumbo-text{
-    text-align: center;
-    margin-top: 300px;
-    h1{
-      font-size: 5rem;
-      margin-bottom: 25px;
-      span{
-        padding: 10px 15px;
-        background-color: rgba(108,160,160,0.3);;
-        color: $bL-color;
-        border-radius: 5px
-      }
-    }
-    p{
-      font-size: 1.3rem;
-      color: $pumice-color;
-      margin-bottom: 60px;
-    }
-    .btn-left{
-      @include btn1;
-      margin-right: 20px;
-      text-transform: uppercase;
-      &:hover{
-        background-color: $vibrant-color;
-      }
-    }
-    .btn-right{
-      @include btn2;
-      text-transform: uppercase;
-      &:hover{
-        color: white;
-        background-color: $sN-color;
-      } 
-    }
-  }
-  .right-box{
-    padding: 20px;
-    float: right;
-    width: 50px;
-    margin-top: - 230px;
-    .box{
-      padding: 15px 5px;
-      border: 1px solid $bL-color;
-      margin-bottom: 10px;
-      border-radius: 10px;
-    }
-    .box-active{
-      padding: 15px 5px;
-      border: 1px solid $bL-color;
-      background-color: $bL-color;
-      margin-bottom: 10px;
-      border-radius: 10px;
-    }
-  }
+     p{
+       font-size: 1.3rem;
+       color: $pumice-color;
+       margin-bottom: 60px;
+     }
+     .btn-left{
+       @include btn1;
+       margin-right: 20px;
+       text-transform: uppercase;
+       &:hover{
+         background-color: $vibrant-color;
+       }
+     }
+     .btn-right{
+       @include btn2;
+       text-transform: uppercase;
+       &:hover{
+         color: white;
+         background-color: $sN-color;
+       } 
+     }
+   }
+   .right-box{
+     padding: 20px;
+     float: right;
+     width: 50px;
+     margin-top: - 230px;
+     .box{
+       padding: 15px 5px;
+       border: 1px solid $bL-color;
+       margin-bottom: 10px;
+       border-radius: 10px;
+     }
+     .box-active{
+       padding: 15px 5px;
+       border: 1px solid $bL-color;
+       background-color: $bL-color;
+       margin-bottom: 10px;
+       border-radius: 10px;
+     }
+   }
  
-}
+ }
 
 </style>
