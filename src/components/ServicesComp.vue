@@ -145,7 +145,7 @@ export default {
     padding: 50px;
     border-radius: 10px;
     transition: 1s;
-    // margin-right:20px ;
+    
     &:hover{
       transform: translateY(-15px);
       box-shadow: 0px 10px 8px gray

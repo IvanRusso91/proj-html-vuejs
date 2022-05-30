@@ -21,6 +21,7 @@
       <a class="btn-left" href="#">get in touch</a>
       <a class="btn-right" href="#"> read more</a>
     </div>
+    
     <div class="right-box">
       <div class="box"></div>
       <div class="box-active"></div>
