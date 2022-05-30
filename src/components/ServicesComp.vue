@@ -13,28 +13,26 @@
       </div>
 
     </div>
-     <div class="container box-cards">
-       <div v-for="(card, index) in cards" :key="`i${index}`"   class="card">
-         <div class="up">
+    <div class="container box-cards">
+      <div v-for="(card, index) in cards" :key="`i${index}  `"   class="card">
+        <div class="up">
 
-           <div>
-             <i :class= 'card.icon' class="icon"></i>
-           </div>
+          <div>
+            <i :class= 'card.icon' class="icon"></i>
+          </div>
            
-           <dir>
-             <i :class= 'card.arr'></i>
-           </dir>
+          <dir>
+            <i :class= 'card.arr'></i>
+          </dir>
            
-         </div>
+        </div>
 
-         <div class="down">
-           <h3>{{card.title}}</h3>
-           <p>{{card.text}}.</p>
-         </div>
-       </div>
-
-
-      </div>
+        <div class="down">
+          <h3>{{card.title}}</h3>
+          <p>{{card.text}}.</p>
+        </div>
+      </div>    
+    </div>
     
   </div>
 </template>
@@ -47,7 +45,7 @@ export default {
     return{
       cards:[
         {
-          icon: "fa-solid fa-diagram-project",
+          icon: "fa-solid fa-network-wired",
           arr: 'fa-solid fa-arrow-right',
           title: 'Audio & Assurance',
           text: 'Lorem ipsum dolor sit amet consectetur     adipisicing elit.'
@@ -129,8 +127,10 @@ export default {
       }
       
     }  
-  }  
+  }
+
 }
+
 
 .box-cards{
   padding-top: 50px;
