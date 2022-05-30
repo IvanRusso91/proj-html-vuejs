@@ -18,7 +18,7 @@
     <div class="box-res">
     <ul class="container">
       <li><a href="#"><img src="../assets/img/logo-4.png" alt=""></a></li>
-      <li><a href="#"><img src="../assets/img/logo-5.png" alt=""></a></li>
+      <li><a  href="#"><img class="less" src="../assets/img/logo-5.png" alt=""></a></li>
       <li><a href="#"><img src="../assets/img/logo-1.png" alt=""></a></li>
       <li><a href="#"><img src="../assets/img/logo-2.png" alt=""></a></li>
       <li><a href="#"><img src="../assets/img/logo-3.png" alt=""></a></li>
@@ -92,6 +92,13 @@ export default {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
+    img{
+      filter: invert(50%);
+      width: 120px;
+    }
+    .less{
+      width: 70px;
+    }
   }
 }
 
