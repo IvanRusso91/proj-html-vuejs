@@ -17,7 +17,7 @@
 
       <div class="box-cards">
       <div v-for="(item, index) in books" :key="`i${index}  `"   class="card" id="c-up">
-        
+           
         <div class="up">
 
           <dir>
@@ -44,7 +44,7 @@ export default {
       books:[
         {
           arr:'fa-solid fa-arrow-right',
-          image:'../assets/img/project-1.jpg',
+          image: '../assets/img/project-1.png',
           text: 'Accademic professional program in social media',
           down: 'Lorem ipsum dolor sit amet consectetur     adipisicing elit.',
         },
