@@ -126,7 +126,6 @@ export default {
 
   .box-cards{
     padding-top: 50px;
-    padding-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
