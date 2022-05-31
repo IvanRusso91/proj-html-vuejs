@@ -69,103 +69,102 @@ export default {
 @import '../assets/style/vars';
 @import '../assets/style/mixin';
 
- .jumbo{
+.jumbo{
   height: calc(100vh - 60px);
   background-image: url(../assets/img/bg-parallax.PNG);
   background-size: cover;
   background-position: center;
-   .box-jumbo{
-     @include j-sb;
-     .c-left{
-       img{
-         width: 160px;
-         padding-top: 20px;
-       }
-     }
-     .c-right{
-       display: flex;
-       padding-top: 35px;
-       justify-content: end;
-       nav{
-         ul{
-           li{
-             display: inline-block;
-             margin-left: 20px;
-             cursor: default;
-             a{
-               color: $shark-color;
-               text-transform: uppercase; 
-               font-weight: bold;
+  .box-jumbo{
+    @include j-sb;
+    .c-left{
+      img{
+        width: 160px;
+        padding-top: 20px;
+      }
+    }
+    .c-right{
+      display: flex;
+      padding-top: 35px;
+      justify-content: end;
+      nav{
+        ul{
+          li{
+            display: inline-block;
+            margin-left: 20px;
+            cursor: default;
+            a{
+              color: $shark-color;
+              text-transform: uppercase; 
+              font-weight: bold;
               
-               &:hover{
-                 color: $bL-color;
-               }   
-             }
-             .btn{
-               @include btn1;           
-               &:hover{
-                 color: white;
-                 background-color: $vibrant-color;
-               }
-             }
-           }
-         }
-       }
-     }
-   }
-
-   .jumbo-text{
-     text-align: center;
-     margin-top: 300px;
-     h1{
-       font-size: 5rem;
-       margin-bottom: 25px;
-       span{
-         @include title 
+              &:hover{
+                color: $bL-color;
+              }   
+            }
+            .btn{
+              @include btn1;           
+              &:hover{
+                color: white;
+                background-color: $vibrant-color;
+              }
+            }
+          }
         }
       }
-     p{
-       font-size: 1.3rem;
-       color: $pumice-color;
-       margin-bottom: 60px;
-     }
-     .btn-left{
-       @include btn1;
-       margin-right: 20px;
-       text-transform: uppercase;
-       &:hover{
-         background-color: $vibrant-color;
-       }
-     }
-     .btn-right{
-       @include btn2;
-       text-transform: uppercase;
-       &:hover{
-         color: white;
-         background-color: $sN-color;
-       } 
-     }
-   }
-   .right-box{
-     padding: 20px;
-     float: right;
-     width: 50px;
-     margin-top: - 230px;
-     .box{
-       padding: 15px 5px;
-       border: 1px solid $bL-color;
-       margin-bottom: 10px;
-       border-radius: 10px;
-     }
-     .box-active{
-       padding: 15px 5px;
-       border: 1px solid $bL-color;
-       background-color: $bL-color;
-       margin-bottom: 10px;
-       border-radius: 10px;
-     }
-   }
- 
- }
+    }
+  }
+
+  .jumbo-text{
+    text-align: center;
+    margin-top: 300px;
+    h1{
+      font-size: 5rem;
+      margin-bottom: 25px;
+      span{
+        @include title 
+      }
+    }
+    p{
+      font-size: 1.3rem;
+      color: $pumice-color;
+      margin-bottom: 60px;
+    }
+    .btn-left{
+      @include btn1;
+      margin-right: 20px;
+      text-transform: uppercase;
+      &:hover{
+        background-color: $vibrant-color;
+      }
+    }
+    .btn-right{
+      @include btn2;
+      text-transform: uppercase;
+      &:hover{
+        color: white;
+        background-color: $sN-color;
+      } 
+    }
+  }
+  .right-box{
+    padding: 20px;
+    float: right;
+    width: 50px;
+    margin-top: - 230px;
+    .box{
+      padding: 15px 5px;
+      border: 1px solid $bL-color;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+    .box-active{
+      padding: 15px 5px;
+      border: 1px solid $bL-color;
+      background-color: $bL-color;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+  }
+}
 
 </style>
