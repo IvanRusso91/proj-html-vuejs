@@ -44,14 +44,11 @@ header{
     color: $pumice-color;
 
     .left{
-      width: 50%;
       margin:auto;
     }
     .right{
       display: flex;
-      width: 50%;
       justify-content: end;
-  
       nav{
         ul{
           li{

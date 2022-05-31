@@ -101,6 +101,7 @@ export default {
   .box{
     @include j-sb;
     .col-left{
+      width: 1300px;
       .areas{
         text-transform: uppercase;
         color: $vibrant-color;
@@ -120,6 +121,7 @@ export default {
       }
     }
     .col-right{
+      width: 800px;
       display: flex;
       justify-content: end;
       a{
@@ -138,14 +140,10 @@ export default {
   }
   .bull2{
   @include bull;
-  margin-top: -65px;
-  margin-bottom: -70px;
-
-
+    margin-top: -65px;
+    margin-bottom: -70px;
   }
 }
-
-
 .box-cards{
   padding-top: 50px;
   padding-bottom: 100px;
@@ -154,7 +152,7 @@ export default {
   justify-content: space-between;
   .card{
     margin-top: 30px;
-    width: calc(100% / 3 - 20px);
+    width: 420px;
     background-color: white;
     padding: 50px;
     border-radius: 10px;

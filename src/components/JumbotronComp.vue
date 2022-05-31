@@ -77,7 +77,6 @@ export default {
    .box-jumbo{
      @include j-sb;
      .c-left{
-       width: 50%;
        img{
          width: 160px;
          padding-top: 20px;
@@ -85,7 +84,6 @@ export default {
      }
      .c-right{
        display: flex;
-       width: 50%;
        padding-top: 35px;
        justify-content: end;
        nav{

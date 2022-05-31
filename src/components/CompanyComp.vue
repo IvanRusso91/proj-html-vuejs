@@ -72,7 +72,7 @@ export default {
 .box{
   @include j-sb;
   .company{
-    width: 50%;
+    width:1000px;
     background-color: $shark-color;
     padding-bottom: 150px;
     .ir-text{
@@ -139,10 +139,11 @@ export default {
     }
   }
   .sfondo{
-    width: 50%;
+    width: 950px;
     background-image: url(../assets/img/about-4.jpg);
     background-position: center;
     background-size: cover;
+    
   }
 }
 .bull{

@@ -140,11 +140,11 @@ export default {
       display: block;
     }  
     .card{
-      width: calc(100% / 3 - 20px);
+      width: 420px;
       padding: 50px;
       border-radius: 10px;
       height: 400px;
-      margin-top: 20px;
+      margin-top: 30px;
       transition: 1s;
       background-position: center; 
       background-size: cover;
