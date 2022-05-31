@@ -62,9 +62,9 @@ export default {
 
 .touch{
   @include j-sb;
-  margin-bottom: 50px;
+  margin-bottom: 130px;
   .left{
-    width: 65%;
+    width: 70%;
     .tou{
       text-transform: uppercase;
       color: $vibrant-color;
@@ -136,7 +136,7 @@ export default {
       color: $gravel-color;
     }
     ul{
-      margin-left: -35px;
+      padding: 0;
       li{
         margin-bottom: 50px;
         a{
