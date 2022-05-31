@@ -34,3 +34,12 @@
   color: $bL-color;
   border-radius: 5px
 }
+
+@mixin bull{
+  background-image: url(../assets/img/bullets.png);
+  height: 100px;
+  width: 600px;
+  margin: auto;
+  transform: scale(0.3);
+  opacity: 0.5;
+}

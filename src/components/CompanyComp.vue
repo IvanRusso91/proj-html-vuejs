@@ -49,8 +49,11 @@
 
         </div>
       </div>
+
       <div class="sfondo"></div>
+      
     </div>
+    <div class="bull"></div>
     <div class="bull2"></div>
   </div>
 </template>
@@ -142,5 +145,12 @@ export default {
     background-size: cover;
   }
 }
-
+.bull{
+  @include bull;
+  margin-top: -65px;
+}
+.bull2{
+  @include bull;
+  margin-top: -65px; 
+}
 </style>

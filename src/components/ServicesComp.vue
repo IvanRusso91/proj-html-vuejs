@@ -36,7 +36,9 @@
         </div>
       </div>    
     </div>
-    
+    <div class="bull"></div>
+    <div class="bull2"></div>
+
   </div>
 </template>
 
@@ -131,7 +133,16 @@ export default {
       
     }  
   }
+  .bull{
+  @include bull;
+  }
+  .bull2{
+  @include bull;
+  margin-top: -65px;
+  margin-bottom: -70px;
 
+
+  }
 }
 
 

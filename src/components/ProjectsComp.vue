@@ -96,7 +96,7 @@ export default {
 
 .ir-box{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
   .pro{
     text-transform: uppercase;
     color: $vibrant-color;
@@ -153,6 +153,7 @@ export default {
       &:hover{
         transform: translateY(-15px);
         box-shadow: 0px 10px 8px gray;
+        
       }
 
       .velo{
