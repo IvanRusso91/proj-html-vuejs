@@ -14,6 +14,9 @@
 
     </div>
     <div class="container box-cards">
+
+      <!--Card ciclate  -->
+      
       <div v-for="(card, index) in cards" :key="`i${index}  `"   class="card">
         <div class="up">
 

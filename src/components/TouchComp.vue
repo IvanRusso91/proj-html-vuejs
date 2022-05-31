@@ -23,8 +23,9 @@
 
             </select>
             <textarea rows="10" cols="30" placeholder="Message"></textarea>
-            
-            <a href="#" class="btn">send</a>
+            <div class="btn-box">
+              <a href="#" class="btn">send</a>
+            </div>
           </div>
 
 
@@ -41,8 +42,9 @@
           <li><a href="#"><i class="fa-solid fa-envelope"></i>hello@ecample.com</a></li>
           <li><a href="#"><i class="fa-solid fa-location-dot"></i>Main Avenue, 987</a></li>
         </ul>
-
-        <a class="btn-right" href="#">view map</a>
+        
+        <a class="btn-right" href="#">view map</a>  
+        
       </div>
     </div>
   </div>
@@ -63,8 +65,13 @@ export default {
 .touch{
   @include j-sb;
   margin-bottom: 130px;
+  display: flex;
+    flex-wrap: wrap;
   .left{
-    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 900px;
     .tou{
       text-transform: uppercase;
       color: $vibrant-color;
@@ -114,18 +121,21 @@ export default {
           font-size: 1.1rem;
           margin-bottom: 40px;
         }
-        .btn{
-          @include btn1;
-          text-transform: uppercase;
-          &:hover{
-            background-color: $vibrant-color;
+        .btn-box{
+          margin-top: 20px;
+          .btn{
+            @include btn1;
+            text-transform: uppercase;
+            &:hover{
+              background-color: $vibrant-color;
+            }
           }
         }
       } 
     }
   }
   .right{
-    width: 30%;
+    width: 350px;
     h2{
       margin-top: 100px;
       margin-bottom: 30px;
