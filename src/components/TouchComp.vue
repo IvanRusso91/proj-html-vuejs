@@ -9,7 +9,7 @@
 
         <div class="field">
           <div class="box-field">
-
+            <img src="../assets/img/image_1.png" alt="">
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
             <input type="text" placeholder="phone">
@@ -93,7 +93,13 @@ export default {
     .field{
       @include j-sb;
       .box-field{
-        
+        img{
+          background-repeat: no-repeat;
+          position: absolute;
+          margin-top: 22px;
+          margin-left: 360px;
+
+        }
         input{
           width: 400px;
           margin-right: 30px;
