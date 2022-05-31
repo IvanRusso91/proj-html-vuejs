@@ -1,6 +1,5 @@
 <template>
 <div>
-  <div class="sfondo"></div>
   <div class="jumbo">
     <div class="container box-jumbo">
       <div class="c-left">
@@ -70,19 +69,11 @@ export default {
 @import '../assets/style/vars';
 @import '../assets/style/mixin';
 
-.sfondo{
-  background-image: url(../assets/img/bg-parallax.PNG);
-  height: calc(100vh - 50px);
-  margin-left: - 860px;
-  margin-top: - 70px;
-  transform: scale(1.1);
-}
-
  .jumbo{
-   z-index: 3;
-   position: relative;
-   height: calc(100vh - 96px);
-   margin-top: -800px;
+  height: calc(100vh - 60px);
+  background-image: url(../assets/img/bg-parallax.PNG);
+  background-size: cover;
+  background-position: center;
    .box-jumbo{
      @include j-sb;
      .c-left{

@@ -38,8 +38,6 @@ export default {
 
 header{
   background-color: $bSto-color;
-  z-index: 4;
-  position: relative;
   .box-head{
     @include j-sb;
     height: 60px;

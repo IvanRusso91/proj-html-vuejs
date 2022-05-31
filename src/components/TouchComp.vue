@@ -12,7 +12,7 @@
 
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
-            <input type="number" placeholder="phone">
+            <input type="text" placeholder="phone">
             <select name="More info">
               <option value="">More info</option>
               <option value="">JQuery</option>
