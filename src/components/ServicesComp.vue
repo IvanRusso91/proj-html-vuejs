@@ -131,8 +131,7 @@ export default {
         &:hover{
           background-color: $vibrant-color;
         }
-      }
-      
+      }     
     }  
   }
   .bull{
